@@ -1,4 +1,4 @@
-# 환경설정
+# Day1. 환경설정
 $ set path=%path%;C:\Program Files\Java\jdk1.8.0_202\bin
 
 d: //d드라이브로 이동
