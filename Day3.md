@@ -33,3 +33,29 @@ public class Sort2 {
 	}
 }
 ```
+
++ while 무한루프 종료시키기!
+```java
+import java.util.Scanner;
+
+public class Cafe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		
+	while(true) {
+		System.out.println("메뉴 입력: ");
+		String menu = s.nextLine();
+		switch(menu) {
+		case "espresso": System.out.println("3500"); break;
+		case "카푸치노 ": System.out.println("3500"); break;
+		case "cafelatte": System.out.println("3500"); break;
+		case "americano": System.out.println("3500"); break;
+		default: menu="q"; break;
+		}
+		if(menu=="q") break;
+		}
+	}
+}
+```
